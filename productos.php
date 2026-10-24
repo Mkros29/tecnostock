@@ -86,6 +86,8 @@ include 'encabezado.php';
       </td>
       <td>
         <?php if ($activo): ?>
+          <a class="btn btn-sm btn-outline-success"
+             href="movimiento_form.php?id=<?= (int) $p['id_producto'] ?>">Movimiento</a>
           <a class="btn btn-sm btn-outline-primary"
              href="producto_form.php?id=<?= (int) $p['id_producto'] ?>">Editar</a>
           <form method="post" action="producto_estado.php" class="d-inline"

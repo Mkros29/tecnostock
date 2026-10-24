@@ -11,6 +11,8 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand" href="productos.php">TecnoStock</a>
+    <a class="nav-link" href="movimiento_form.php">Registrar movimiento</a>
+    <a class="nav-link" href="movimientos.php">Historial</a>
     <div class="navbar-nav me-auto">
       <a class="nav-link" href="productos.php">Productos</a>
     </div>
